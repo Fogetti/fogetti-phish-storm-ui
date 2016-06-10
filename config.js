@@ -11,8 +11,8 @@ config.kafka.host = process.env.KAFKA_HOST || 'gilbert';
 config.kafka.port = process.env.KAFKA_PORT || 9092;
 config.kafka.topic = process.env.KAFKA_TOPIC || 'phish-storm';
 config.kafka.zkconnection = process.env.KAFKA_ZK_CONNECTION || 'localhost:2181';
-config.web.listen = process.env.WEB_LISTEN || '127.0.0.1';
-config.web.http = process.env.WEB_HTTP || 3002;
-config.web.https = process.env.WEB_HTTPS || 3003;
+config.web.httpaddress = process.env.HTTP_LISTEN_ADDRESS || '127.0.0.1';
+config.web.httpport = process.env.HTTP_PORT || 3002;
+config.web.httpsport = process.env.HTTPS_PORT || 3003;
 
 module.exports = config;
