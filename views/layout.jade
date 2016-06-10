@@ -1,0 +1,237 @@
+doctype html
+html.no-js
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title URL Verifier 
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    // Place favicon.ico and apple-touch-icon.png in the root directory
+    // Fonts
+    // Lato
+    link(href='http://fonts.googleapis.com/css?family=Lato:400,300,700', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css')
+    // CSS
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/owl.carousel.css')
+    link(rel='stylesheet', href='/stylesheets/animate.css')
+    // Responsive Stylesheet
+    link(rel='stylesheet', href='/stylesheets/responsive.css')
+  body#body
+    #preloader
+      .book
+        .book__page
+        .book__page
+        .book__page
+    //
+      Header start
+      ====================
+    #navigation.navbar-default.navbar-fixed-top
+      .container
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='#')
+            img.logo-1(src='/images/logo.png', alt='LOGO')
+        // Collect the nav links, forms, and other content for toggling
+        nav#navbar.collapse.navbar-collapse
+          ul#top-nav.nav.navbar-nav.navbar-right
+            li.current
+              a(href='#body') Home
+            li
+              a(href='#about') How It Works
+            li
+              a(href='#faq') FAQ
+        // /.navbar-collapse
+      // /.container-fluid
+    section#hero-area
+      .container
+        .row
+          .col-md-6
+            .content-block
+              h1.wow.fadeInDown PHISHING URL VERIFIER
+              p.wow.fadeInDown(data-wow-delay='0.3s')
+                | Enter any HTTP or HTTPS URLs below
+              .form-group.wow.fadeInDown(data-wow-delay='0.3s')
+                input.form-control(type='text', placeholder='Enter your URL here')
+                .wow.fadeInDown(data-wow-delay='0.3s')
+                  a.btn.btn-default.btn-home(href='#about', role='button') Check It
+          .col-md-6.wow.zoomIn
+            .block
+              .counter
+                h2 Your result will appear here
+                ul#countdown_dashboard
+                  li
+                    .dash.days_dash
+                      .digit CHECKING
+                      span.dash_title Status
+                  li
+                    .dash.minutes_dash
+                      .digit SAFE
+                      span.dash_title Verdict
+        // .row close
+      // .container close
+    // header close
+    //
+      About start
+      ====================
+    section#about.section
+      .container
+        .row
+          .col-md-12.col-sm-12.wow.fadeInLeft
+            .sub-heading.col-md-7.col-sm-12
+              h3
+                | URLs carry lots of important information which might not be apparent at first sight. Some of this information is also playing a very distinct role in differentiating safe and unsafe URLs.
+            .block
+              p.col-md-8.col-sm-8
+                | The most distinctive characteristic of any URL is it's main level domain (MLD = Second Level Domain + Public Suffix (PS)) part. Main level domains are the first line of defense against cyber criminals since all main level domains must be registered with an accredited domain name registrar. This fact guarantees that government entities, private citizens and the business world can safely and reliably present it's identity to the outer world online, because the domain name registrars are governing these domain names by very strict rules.
+              br
+              p.col-md-4.col-sm-4
+                img.img-responsive.domain-name(src='/images/domain-name.svg', alt='Domain name')
+              p.col-md-12.col-sm-12
+                | On the other hand, main level domains are also common targets of cyber attacks since the same strict rules restrict the scope of any registered domain name. Because URLs became the digital identity of their real world counterparts, identity theft is a common threat and it carries the possibilty of grave economic consequences.
+              br
+              p.col-md-12.col-sm-12
+                | Phishing is essentially a two step process. In the first step the attacker is luring the victim to a forged website by sending a forged URL to the victim. The bogus page is usually a pixel perfect copy of the targeted bank's, business's, or government institution's original website which makes less cautious victims unaware that the visited website is fake. In the second step the attacker attempts to gain access to the victim's authentication information behind the scenes while the victim is browsing the page and interacting with it.
+              p.col-md-12.col-sm-12
+                | However even pixel perfect copies of the original page can't hide the bogus URL in the browser's address bar. Because of this technical limitation attackers will usually register a similar looking main level domain or utilize other techniques which make the rogue URL obfuscated.
+              hr
+              .col-md-6.col-sm-6
+                | Attackers can try:
+                ol
+                  li
+                    | To obfuscate URLs by another domain
+                  li
+                    | To obfuscate URLs by keywords
+                  li
+                    | To obfuscate URLs by typosquatting domains or long domains
+                  li
+                    | To obfuscate URLs with IP address
+                  li
+                    | To obfuscate URLs with URL shortener
+              .col-md-6.col-sm-6
+                table
+                  th Obf. Type
+                  th Example
+                  tr
+                    td
+                      | Type I
+                    td
+                      | http://school497.ru/222/www.paypal.com/29370274276105805/
+                      | http://paypal.com.eu.compte.client.update.condst.com.br/
+                  tr
+                    td
+                      | Type II
+                    td
+                      | http://www.quadrodeofertas.com.br/www1.paypal-com/encripted/ssl218
+                      | http://sezopoztos.com/paypalitlogin/us/webscr.html?cmd= login-run
+                  tr
+                    td
+                      | Type III
+                    td
+                      | http://cgi-3.paypal-secure.de/info2/verikredit.html
+                      | http://paypal-shopping.co.il/
+                  tr
+                    td
+                      | Type IV
+                    td
+                      | http://69.72.130.98/janaseva/https.paypal.com/uk/onepagepaypal.htm
+                      | ftp://212.13.144.72/SERVICE/PayPal.com/security/alert/paypal.com
+                  tr
+                    td
+                      | Type V
+                    td
+                      | http://tiny.cc/clientID00858JD8 http://goo.gl/HQx5g
+              hr
+              p.col-md-12.col-sm-12
+                | However even the obfuscated URLs carry common similarities, namely they target specific brands and the name of those brands appear in the path, the query or the low level domain (LLD) of the URL. Our application is based on recognizing this unique feature.
+          .col-md-5.col-sm-12.wow.fadeInLeft(data-wow-delay='0.3s')
+            .about-slider
+              .init-slider
+    // #about close
+    //
+      FAQ start
+      ====================
+    section#faq.section
+      .container
+        .row
+          .col-xs-12.col-sm-12.col-md-12
+            .block
+              .heading.wow.fadeInUp
+                h2 Frequently Asked Questions
+                p
+                  | We gathered below some of the frequent questions that you might have.
+                  br
+                  |  Should you have any further questions don't hesitate to contact us.
+          .col-xs-12.col-sm-12.col-md-5.wow.fadeInUp
+            .block.text-left
+              .sub-heading
+                h4 The page says my URL is unsafe. Are you sure?
+                p
+                  | Our application is using a pretty accurate algorithm to determine the safety of each URL. The algorithm is reliable in 99.22% of the cases for most of the URLs (83.96%), which means that it makes about 8 mistakes for every thousand URLs. Also when the application can't determine the safety score of the URL, it will display the 'FAILED' verdict to the user.
+              address.address
+                hr
+                h4 I would like to know more about the technology you use. Where can I find the technical details?
+                p
+                  | For the details please visit the following site:
+                  br
+                  a(href="https://fogetti.com") https://fogetti.com
+                hr
+                h4 Why can't your application verify the minimized URLs?
+                p
+                  | To answer this question and for the technincal details please visit the following site:
+                  br
+                  a(href="https://fogetti.com") https://fogetti.com
+                hr
+                h4 The page says verification failed. Is there any other way to verify an URL?
+                p
+                  | As a rule of thumb, much caution is needed while navigating the web and opening email messages received from unknown senders. Also much caution is needed when messages are asking for changing payment or personal information. If you can't verify the source of the message, then it's better not to click on the links contained in it. Some of the best practices are gathered on this page:
+                  br
+                  a(href="https://www.sophos.com/en-us/security-news-trends/best-practices/phishing.aspx") Simple Steps to Avoid Being Phished
+                hr
+                h4 I have further questions. How can I contact you?
+                p
+                  | If you have further questions please use the contact form on the right side if this page.
+          .col-xs-12.col-sm-12.col-md-5.col-md-offset-1.wow.fadeInUp(data-wow-delay='0.3s')
+            .form-group
+              form#contact-form(action='#', method='post')
+                .input-field
+                  input.form-control(type='text', placeholder='Your Name', name='name')
+                .input-field
+                  input.form-control(type='email', placeholder='Email Address', name='email')
+                .input-field
+                  textarea.form-control(placeholder='Your Message', rows='3', name='message')
+                button.btn.btn-send(type='submit') Send me
+              #success
+                p Your Message was sent successfully
+              #error
+                p Your Message was not sent successfully
+    section(clas='wow fadeInUp')
+      .map-wrapper
+    footer
+      .container
+        .row
+          .col-md-12
+            .block
+              p
+                | Copyright © 
+                a(href='http://www.Themefisher.com') Themefisher
+                | | All right reserved.
+    // Js
+    script(src='/javascripts/vendor/modernizr-2.6.2.min.js')
+    script(src='/javascripts/vendor/jquery-1.10.2.min.js')
+    script(src='https://maps.googleapis.com/maps/api/js?sensor=false')
+    script(src='/javascripts/jquery.lwtCountdown-1.0.js')
+    script(src='/javascripts/bootstrap.min.js')
+    script(src='/javascripts/owl.carousel.min.js')
+    script(src='/javascripts/jquery.validate.min.js')
+    script(src='/javascripts/jquery.form.js')
+    script(src='/javascripts/jquery.nav.js')
+    script(src='/javascripts/jquery.sticky.js')
+    script(src='/javascripts/plugins.js')
+    script(src='/javascripts/wow.min.js')
+    script(src='/javascripts/main.js')
