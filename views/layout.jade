@@ -17,6 +17,7 @@ html.no-js
     link(rel='stylesheet', href='/stylesheets/animate.css')
     // Responsive Stylesheet
     link(rel='stylesheet', href='/stylesheets/responsive.css')
+    script(src='/socket.io/socket.io.js')
   body#body
     #preloader
       .book
@@ -49,6 +50,37 @@ html.no-js
         // /.navbar-collapse
       // /.container-fluid
     section#hero-area
+      script.
+        var glower = undefined;
+        var socket = io.connect();
+
+        socket.on('message', function(data){
+            console.log(String.fromCharCode.apply(null, new Uint8Array(data.message.key)));
+            console.log(data.message);
+        });
+
+        socket.on('status', function(data){
+            $('#status').text(data.value);
+        });
+
+        socket.on('verdict', function(data){
+            $('#verdict').text(data.value);
+        });
+
+        function postUrl() {
+            var url = $('#url').val();
+            socket.emit('url', {'url': url});
+            clearInterval(glower);
+            glower = glowit();
+        };
+        function glowit() {
+            var glower = $('#countdown_dashboard li');
+            glower.removeClass('glow');
+            glower.toggleClass('glow');
+            return setInterval(function() {  
+                glower.toggleClass('active');
+            }, 1000);
+        };
       .container
         .row
           .col-md-6
@@ -56,10 +88,10 @@ html.no-js
               h1.wow.fadeInDown PHISHING URL VERIFIER
               p.wow.fadeInDown(data-wow-delay='0.3s')
                 | Enter any HTTP or HTTPS URLs below
-              .form-group.wow.fadeInDown(data-wow-delay='0.3s')
-                input.form-control(type='text', placeholder='Enter your URL here')
+              div.form-group.wow.fadeInDown(data-wow-delay='0.3s')
+                input#url.form-control(type='text', placeholder='Enter your URL here', name="url")
                 .wow.fadeInDown(data-wow-delay='0.3s')
-                  a.btn.btn-default.btn-home(href='#about', role='button') Check It
+                  input.btn.btn-default.btn-home(type='button', value='Check It', role='button', onclick="postUrl()")
           .col-md-6.wow.zoomIn
             .block
               .counter
@@ -67,11 +99,11 @@ html.no-js
                 ul#countdown_dashboard
                   li
                     .dash.days_dash
-                      .digit CHECKING
+                      .digit#status STOPPED
                       span.dash_title Status
                   li
                     .dash.minutes_dash
-                      .digit SAFE
+                      .digit#verdict NOT AVAILABLE
                       span.dash_title Verdict
         // .row close
       // .container close
@@ -235,3 +267,9 @@ html.no-js
     script(src='/javascripts/plugins.js')
     script(src='/javascripts/wow.min.js')
     script(src='/javascripts/main.js')
+    script.
+      $("#url").keypress(function(e) {
+          if(e.which == 13) {
+            postUrl();
+          }
+      });

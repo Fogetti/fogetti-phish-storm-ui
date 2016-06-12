@@ -338,7 +338,7 @@ a:active {
 
 
 #hero-area {
-  padding:130px 0;
+    padding:100px 0;
     background: rgba(0, 0, 0, 0) linear-gradient(135deg, #8ec64e 0%, #41aba0 100%) repeat scroll 0 0;
 }
 #hero-area:before {
@@ -534,6 +534,19 @@ a:active {
     width: 100%;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+.glow {
+    border: 1px solid transparent;    
+    -webkit-transition: border 1s linear, box-shadow 1s linear;
+       -moz-transition: border 1s linear, box-shadow 1s linear;
+            transition: border 1s linear, box-shadow 1s linear;
+}
+
+.glow.active {
+    border-color: green;
+    -webkit-box-shadow: 0 0 5px green;
+       -moz-box-shadow: 0 0 5px green;
+            box-shadow: 0 0 5px green;
 }
 /*--
     service start

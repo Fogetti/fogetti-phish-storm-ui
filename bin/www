@@ -8,6 +8,7 @@ var config = require('../config');
 var app = require('../app');
 var debug = require('debug')('storm:server');
 var http = require('http');
+var io = require('socket.io');
 
 /**
  * Get port from environment and store in Express.
@@ -29,6 +30,10 @@ var server = http.createServer(app);
 server.listen(port, config.web.httpaddress);
 server.on('error', onError);
 server.on('listening', onListening);
+
+var listener = io.listen(server);
+
+require('../controllers/kafka')(listener);
 
 /**
  * Normalize a port into a number, string, or false.
