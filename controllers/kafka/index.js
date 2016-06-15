@@ -6,13 +6,13 @@ var config = require('../../config');
 var HashMap = require('hashmap');
 var kafka = require('kafka-node'),
     producer = new kafka.Producer(
-        new kafka.Client(),
+        new kafka.Client(config.kafka.zkconnection),
         {
           partitionerType: 3
         }
     ),
     consumer = new kafka.Consumer(
-        new kafka.Client(),
+        new kafka.Client(config.kafka.zkconnection),
         [
           {
             topic: config.kafka.responsetopic,
@@ -48,9 +48,13 @@ module.exports = function (listener) {
         }, 30000);
     };
 
-    producer.on('ready', function () {});
+    producer.on('ready', function () {
+      console.log('Producer ready');
+    });
      
-    producer.on('error', function (err) {});
+    producer.on('error', function (err) {
+      console.log('Producer error: '+err);
+    });
 
     consumer.on('message', function (message) {
       var base64key = new Buffer(message.key).toString('base64');
@@ -65,7 +69,9 @@ module.exports = function (listener) {
       map.clear();
     });
 
-    consumer.on('error', function (err) {});
+    consumer.on('error', function (err) {
+      console.log('Consumer error: '+err);
+    });
 
     socket.on('url', function(data) {
       if (requestcount >= 10) {
@@ -100,7 +106,10 @@ module.exports = function (listener) {
           partition: 0
         }
       ];
-      producer.send(payloads, function (err, data) {});
+      producer.send(payloads, function (err, data) {
+        console.log('Producer send error: '+err);        
+        console.log('Producer send data: '+data);        
+      });
     };
 
   });
