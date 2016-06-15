@@ -59,26 +59,47 @@ html.no-js
             console.log(data.message);
         });
 
+        socket.on('finished', function(data){
+            clearInterval(glower);
+        });
+
         socket.on('status', function(data){
             $('#status').text(data.value);
         });
 
         socket.on('verdict', function(data){
             $('#verdict').text(data.value);
+            if (data.value === 'NOT AVAILABLE YET') {
+              var verdict_container = $('#verdict_container');
+              verdict_container.removeClass('unsafe safe neutral');
+              verdict_container.toggleClass('neutral');
+            } else if (data.value === 'UNSAFE' ||
+              data.value === 'TOO MANY REQUESTS' ||
+              data.value === 'URL TOO SHORT' ||
+              data.value === 'INVALID URL') {
+              var verdict_container = $('#verdict_container');
+              verdict_container.removeClass('unsafe safe neutral');
+              verdict_container.toggleClass('unsafe');
+            } else {
+              var verdict_container = $('#verdict_container');
+              verdict_container.removeClass('unsafe safe neutral');
+              verdict_container.toggleClass('safe');
+            }
         });
 
         function postUrl() {
             var url = $('#url').val();
             socket.emit('url', {'url': url});
             clearInterval(glower);
+            glower = 0;
             glower = glowit();
         };
         function glowit() {
-            var glower = $('#countdown_dashboard li');
-            glower.removeClass('glow');
-            glower.toggleClass('glow');
+            var glow = $('#countdown_dashboard li');
+            glow.removeClass('glow');
+            glow.toggleClass('glow');
             return setInterval(function() {  
-                glower.toggleClass('active');
+                glow.toggleClass('active');
             }, 1000);
         };
       .container
@@ -97,13 +118,13 @@ html.no-js
               .counter
                 h2 Your result will appear here
                 ul#countdown_dashboard
-                  li
+                  li#status_container
                     .dash.days_dash
                       .digit#status STOPPED
                       span.dash_title Status
-                  li
+                  li#verdict_container
                     .dash.minutes_dash
-                      .digit#verdict NOT AVAILABLE
+                      .digit#verdict NOT AVAILABLE YET
                       span.dash_title Verdict
         // .row close
       // .container close

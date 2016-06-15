@@ -535,6 +535,15 @@ a:active {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+#verdict_container.glow.neutral {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+#verdict_container.glow.unsafe {
+    background-color: rgba(239, 83, 80, 0.7) !important;
+}
+#verdict_container.glow.safe {
+    background-color: rgba(67, 160, 71, 0.7) !important;
+}
 .glow {
     border: 1px solid transparent;    
     -webkit-transition: border 1s linear, box-shadow 1s linear;
