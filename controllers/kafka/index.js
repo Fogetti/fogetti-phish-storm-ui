@@ -20,7 +20,7 @@ var kafka = require('kafka-node'),
           }
         ],
         {
-          autoCommit: false
+          autoCommit: true
         }
     );
 
@@ -57,6 +57,7 @@ module.exports = function (listener) {
     });
 
     consumer.on('message', function (message) {
+      console.log('Message: '+message);
       var base64key = new Buffer(message.key).toString('base64');
       var key = Buffer.from(base64key, 'base64').toString('utf8');
       var value = new Buffer(message.value).toString('utf8');
