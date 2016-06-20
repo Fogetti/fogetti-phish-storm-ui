@@ -80,7 +80,7 @@ html.no-js
               var verdict_container = $('#verdict_container');
               verdict_container.removeClass('unsafe safe neutral nslasha');
               verdict_container.toggleClass('unsafe');
-            } else if (data.value === 'N/A') {
+            } else if (data.value === "CAN'T DETERMINE") {
               var verdict_container = $('#verdict_container');
               verdict_container.removeClass('unsafe safe neutral nslasha');
               verdict_container.toggleClass('nslasha');
