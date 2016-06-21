@@ -17,6 +17,7 @@ html.no-js
     link(rel='stylesheet', href='/stylesheets/animate.css')
     // Responsive Stylesheet
     link(rel='stylesheet', href='/stylesheets/responsive.css')
+    script(src='https://www.google.com/recaptcha/api.js')
     script(src='/socket.io/socket.io.js')
   body#body
     #preloader
@@ -140,9 +141,20 @@ html.no-js
       .container
         .row
           .col-md-12.col-sm-12.wow.fadeInLeft
-            .sub-heading.col-md-7.col-sm-12
+            .sub-heading.col-md-12.col-sm-12
+              h2
+                | CUTTING EDGE TECHNOLOGY FOR ONLINE SECURITY
+        .row
+          .col-md-12.col-sm-12.wow.fadeInLeft
+            .sub-heading.col-md-8.col-sm-12
               h3
                 | URLs carry lots of important information which might not be apparent at first sight. Some of this information is also playing a very distinct role in differentiating safe and unsafe URLs.
+            .about-slider.col-md-4.col-sm-12
+              .init-slider
+                .about-item
+                  img(src="/images/apache-storm-logo.png" alt="" class="img-responsive")
+                .about-item
+                  img(src="/images/apache-kafka-logo.png" alt="" class="img-responsive")
             .block
               p.col-md-8.col-sm-8
                 | The most distinctive characteristic of any URL is it's main level domain (MLD = Second Level Domain + Public Suffix (PS)) part. Main level domains are the first line of defense against cyber criminals since all main level domains must be registered with an accredited domain name registrar. This fact guarantees that government entities, private citizens and the business world can safely and reliably present it's identity to the outer world online, because the domain name registrars are governing these domain names by very strict rules.
@@ -206,9 +218,22 @@ html.no-js
               hr
               p.col-md-12.col-sm-12
                 | However even the obfuscated URLs carry common similarities, namely they target specific brands and the name of those brands appear in the path, the query or the low level domain (LLD) of the URL. Our application is based on recognizing this unique feature.
-          .col-md-5.col-sm-12.wow.fadeInLeft(data-wow-delay='0.3s')
+              hr
+              p.col-md-12.col-sm-12
+                | Since we know that the URLs carry inherent information about the safeness of the given URL we can build a ground truth about this set of URLs. To build such a dataset we can leverage machine learning and teach an algorithm to make difference between safe and unsafe URLs by establishing a set of distinctive features and test new URLs against the ground truth.
+              br
+              p.col-md-12.col-sm-12
+                | Such distinctive features might be the Alexa ranking of a given URL, the Google trend of given keywords extracted from the URL or the intra-relatedness of a given URL that we discussed in the previous chapter.
+              br
+              p.col-md-12.col-sm-12
+                | Since collecting all this information is a tedious and error-prone task, we use data mining and streaming analytics to perform a quick and efficient prediction.
+          .col-md-12.col-sm-12.wow.fadeInLeft(data-wow-delay='0.3s')
             .about-slider
               .init-slider
+                .about-item
+                  img(src="/images/storm01.svg" alt="" class="img-responsive")
+                .about-item
+                  img(src="/images/storm02.svg" alt="" class="img-responsive")
     // #about close
     //
       FAQ start
@@ -244,7 +269,7 @@ html.no-js
                   br
                   a(href="https://fogetti.com") https://fogetti.com
                 hr
-                h4 The page says verification failed. Is there any other way to verify an URL?
+                h4 The page says "CAN'T DETERMINE" if the URL is safe. Is there any other way to verify an URL?
                 p
                   | As a rule of thumb, much caution is needed while navigating the web and opening email messages received from unknown senders. Also much caution is needed when messages are asking for changing payment or personal information. If you can't verify the source of the message, then it's better not to click on the links contained in it. Some of the best practices are gathered on this page:
                   br
@@ -262,6 +287,8 @@ html.no-js
                   input.form-control(type='email', placeholder='Email Address', name='email')
                 .input-field
                   textarea.form-control(placeholder='Your Message', rows='3', name='message')
+                .input-field
+                  .g-recaptcha(data-sitekey="6LfyLyMTAAAAAEyOlDbgGNvS1Kdmu7EWMuUFkd0w")
                 button.btn.btn-send(type='submit') Send me
               #success
                 p Your Message was sent successfully
@@ -277,6 +304,7 @@ html.no-js
               p
                 | Copyright © 
                 a(href='http://www.Themefisher.com') Themefisher
+                a(href='http://www.freepik.com/free-vector/colorful-infographic-elements-in-flat-design_891862.htm') Designed by Freepik
                 | | All right reserved.
     // Js
     script(src='/javascripts/vendor/modernizr-2.6.2.min.js')

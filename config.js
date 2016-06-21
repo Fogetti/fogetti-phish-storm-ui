@@ -15,5 +15,6 @@ config.kafka.zkconnection = process.env.KAFKA_ZK_CONNECTION || 'localhost:2181';
 config.web.httpaddress = process.env.HTTP_LISTEN_ADDRESS || '127.0.0.1';
 config.web.httpport = process.env.HTTP_PORT || 3002;
 config.web.httpsport = process.env.HTTPS_PORT || 3003;
+config.recaptcha.secret = process.env.RECAPTCHA_SECRET || 'alma';
 
 module.exports = config;

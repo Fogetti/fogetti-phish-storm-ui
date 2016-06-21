@@ -15,7 +15,6 @@ $(document).ready(function(){
         changeHash: true,
         scrollSpeed: 1200
     });
-
      
     //animated header class
     $(window).scroll(function () {
@@ -30,8 +29,9 @@ $(document).ready(function(){
         items:1,
         merge:true,
         loop:true,
-        video:true,
-        smartSpeed: 600
+        autoplay:true,
+        smartSpeed: 600,
+        dots:false
     });
 
     //contact form validation
@@ -63,9 +63,9 @@ $(document).ready(function(){
         },
         submitHandler: function(form) {
             $(form).ajaxSubmit({
+                dataType:"json",
                 type:"POST",
-                data: $(form).serialize(),
-                url:"mail.php",
+                url:"/",
                 success: function() {
                     $('#contact-form :input').attr('disabled', 'disabled');
                     $('#contact-form').fadeTo( "slow", 0.15, function() {
@@ -74,8 +74,9 @@ $(document).ready(function(){
                         $('#success').fadeIn();
                     });
                 },
-                error: function() {
+                error: function(err) {
                     $('#contact-form').fadeTo( "slow", 0.15, function() {
+                        $('#error > p').text(err.responseJSON.message);
                         $('#error').fadeIn();
                     });
                 }
