@@ -3,6 +3,7 @@ var config = {};
 config.redis = {};
 config.kafka = {};
 config.web = {};
+config.recaptcha = {};
 
 config.redis.host = process.env.REDIS_HOST || 'petrucci';
 config.redis.port = process.env.REDIS_PORT || 6379;
