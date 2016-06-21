@@ -58,15 +58,13 @@ module.exports = function (listener) {
 
     consumer.on('message', function (message) {
       console.log('Message: '+message);
-      var base64key = new Buffer(message.key).toString('base64');
-      var key = Buffer.from(base64key, 'base64').toString('utf8');
+      console.log('Message key: '+message.key);
+      console.log('Message value: '+message.value);
       var value = new Buffer(message.value).toString('utf8');
-      if (map.has(base64key)) {
-        clearInterval(statusupdate);
-        socket.emit('finished', {'value': 'DONE'});
-        socket.emit('verdict', {'value': value});
-        socket.emit('status', {'value': 'FINISHED'});
-      }
+      clearInterval(statusupdate);
+      socket.emit('finished', {'value': 'DONE'});
+      socket.emit('verdict', {'value': value});
+      socket.emit('status', {'value': 'FINISHED'});
       map.clear();
     });
 
