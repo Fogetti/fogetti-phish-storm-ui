@@ -3,7 +3,6 @@
  */
 var v = require('valid-url');
 var config = require('../../config');
-var HashMap = require('hashmap');
 var kafka = require('kafka-node'),
     producer = new kafka.Producer(
         new kafka.Client(config.kafka.zkconnection),
@@ -31,7 +30,7 @@ module.exports = function (listener) {
   listener.sockets.on('connection', function(socket) {
 
     var tooshort = /^(http|https):\/\/[^/]+[/]{0,1}$/;
-    var map = new HashMap();
+    var url = undefined;
 
     var statusupdate = undefined;
     function updateStatus() {
@@ -61,11 +60,12 @@ module.exports = function (listener) {
       console.log('Message key: '+message.key);
       console.log('Message value: '+message.value);
       var value = new Buffer(message.value).toString('utf8');
-      clearInterval(statusupdate);
-      socket.emit('finished', {'value': 'DONE'});
-      socket.emit('verdict', {'value': value});
-      socket.emit('status', {'value': 'FINISHED'});
-      map.clear();
+      if (url === message.key) {
+        clearInterval(statusupdate);
+        socket.emit('finished', {'value': 'DONE'});
+        socket.emit('verdict', {'value': value});
+        socket.emit('status', {'value': 'FINISHED'});
+      }
     });
 
     consumer.on('error', function (err) {
@@ -85,8 +85,8 @@ module.exports = function (listener) {
       } else if (v.isHttpUri(data.url) || v.isHttpsUri(data.url)) {
         requestcount++;
         var encodedUrl = new Buffer(data.url).toString('base64');
-        map.clear();
-        map.set(encodedUrl, encodedUrl);
+        url = encodedUrl;
+        console.log('Verifying: '+url);
         send(encodedUrl, data.url);
         clearInterval(statusupdate);
         statusupdate = updateStatus();        
