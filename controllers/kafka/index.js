@@ -31,8 +31,9 @@ module.exports = function (listener) {
 
     var tooshort = /^(http|https):\/\/[^/]+[/]{0,1}$/;
     var url = undefined;
-
     var statusupdate = undefined;
+    var requestcount = 0;
+
     function updateStatus() {
         return setInterval(function() {
             socket.emit('verdict', {'value': 'NOT AVAILABLE YET'});
@@ -40,7 +41,6 @@ module.exports = function (listener) {
         }, 1000);
     };
 
-    var requestcount = 0;
     function timeoutRequestCount() {
         return setTimeout(function() {
           requestcount = 0;
@@ -56,15 +56,18 @@ module.exports = function (listener) {
     });
 
     consumer.on('message', function (message) {
-      console.log('Message: '+message);
       console.log('Message key: '+message.key);
       console.log('Message value: '+message.value);
+      var key = new Buffer(message.key).toString('utf8');
       var value = new Buffer(message.value).toString('utf8');
-      if (url === message.key) {
+      if (url == key) {
+        console.log('URL: '+url+' is equal with message key: '+key)
         clearInterval(statusupdate);
         socket.emit('finished', {'value': 'DONE'});
         socket.emit('verdict', {'value': value});
         socket.emit('status', {'value': 'FINISHED'});
+      } else {
+        console.log('URL: '+url+' is not equal with message key: '+key)
       }
     });
 
@@ -105,10 +108,7 @@ module.exports = function (listener) {
           partition: 0
         }
       ];
-      producer.send(payloads, function (err, data) {
-        console.log('Producer send error: '+err);        
-        console.log('Producer send data: '+data);        
-      });
+      producer.send(payloads, function (err, data) {});
     };
 
   });
