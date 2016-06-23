@@ -131,8 +131,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="1163.4992"
-     inkscape:cy="166.12543"
+     inkscape:cx="1151.2029"
+     inkscape:cy="223.26829"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -153,7 +153,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -163,28 +163,20 @@
      id="layer1"
      transform="translate(187.64582,-217.72284)">
     <g
-       transform="matrix(1.2500001,0,0,-1.2500001,973.62343,262.11784)"
-       id="g444">
-      <path
-         inkscape:connector-curvature="0"
-         id="path446"
-         style="fill:#ff4d56;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         d="m 0,0 -177.137,0 23.985,35.516 129.464,0 L 0,0 Z" />
-    </g>
-    <g
-       id="g5474"
-       transform="translate(-335.37069,98.994955)">
+       id="g4575"
+       transform="translate(0,4.0406102)">
       <g
-         transform="matrix(1.25,0,0,-1.25,434.60744,336.59343)"
+         style="fill:#53ae52;fill-opacity:1"
+         transform="matrix(1.25,0,0,-1.25,99.23675,435.58839)"
          id="g204">
         <path
            inkscape:connector-curvature="0"
            id="path206"
-           style="fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="fill:#53ae52;fill-opacity:1;fill-rule:nonzero;stroke:none"
            d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 C 16.961,7.633 9.329,0 0,0" />
       </g>
       <g
-         transform="matrix(1.25,0,0,-1.25,163.43606,342.60355)"
+         transform="matrix(1.25,0,0,-1.25,-171.93463,441.5985)"
          id="g208">
         <path
            inkscape:connector-curvature="0"
@@ -195,69 +187,64 @@
       <text
          id="text212"
          style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="169.30098"
-         y="324.21103">
+         x="-166.06972"
+         y="423.20599">
         <tspan
            id="tspan214"
-           y="324.21103"
-           x="169.30098">1</tspan>
+           y="423.20599"
+           x="-166.06972">1</tspan>
       </text>
       <text
          id="text220"
          style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="256.73956"
-         y="322.63757">
+         x="-78.631126"
+         y="421.63254">
         <tspan
-           y="322.63757"
-           x="256.73956"
+           y="421.63254"
+           x="-78.631126"
            id="tspan222"
            sodipodi:role="line">URLSpout</tspan>
       </text>
     </g>
     <g
-       id="g5484"
-       transform="translate(8.0812213,27.27412)">
+       id="g4598">
       <g
-         transform="matrix(1.25,0,0,-1.25,88.185814,1232.6168)"
-         id="g230"
-         clip-path="url(#clipPath232)">
-        <g
-           id="g236"
-           transform="translate(277.1373,656.437)">
-          <path
-             d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 l 0,0 c 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 l 0,0 C 16.961,7.633 9.329,0 0,0"
-             style="fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path238"
-             inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="g240"
-           transform="translate(60.2002,651.6289)">
-          <path
-             d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z"
-             style="fill:#ff4d56;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path242"
-             inkscape:connector-curvature="0" />
-        </g>
+         style="fill:#53ae52;fill-opacity:1"
+         transform="matrix(1.25,0,0,-1.25,442.68866,439.34465)"
+         id="g236">
+        <path
+           inkscape:connector-curvature="0"
+           id="path238"
+           style="fill:#53ae52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 l 0,0 c 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 l 0,0 C 16.961,7.633 9.329,0 0,0" />
+      </g>
+      <g
+         transform="matrix(1.25,0,0,-1.25,171.51729,445.35478)"
+         id="g240">
+        <path
+           inkscape:connector-curvature="0"
+           id="path242"
+           style="fill:#ff4d56;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z" />
       </g>
       <text
          id="text244"
          style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="169.30098"
-         y="399.68765">
+         x="177.3822"
+         y="426.96176">
         <tspan
            id="tspan246"
-           y="399.68765"
-           x="169.30098">2</tspan>
+           y="426.96176"
+           x="177.3822">2</tspan>
       </text>
       <text
          id="text252"
          style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="271.89185"
-         y="398.11545">
+         x="279.97305"
+         y="425.38956">
         <tspan
-           y="398.11545"
-           x="271.89185"
+           y="425.38956"
+           x="279.97305"
            id="tspan254"
            sodipodi:role="line">URLBolt</tspan>
       </text>
@@ -274,572 +261,157 @@
          y="472.58203" />
     </text>
     <g
-       id="g5495"
-       transform="translate(545.41276,-161.79774)">
+       id="g4621">
       <g
-         transform="matrix(1.25,0,0,-1.25,88.185814,1232.6168)"
-         id="g262"
-         clip-path="url(#clipPath264)">
-        <g
-           id="g268"
-           transform="translate(277.1373,596.0552)">
-          <path
-             d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 l 0,0 c 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 l 0,0 C 16.961,7.633 9.329,0 0,0"
-             style="fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path270"
-             inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="g272"
-           transform="translate(60.2002,591.2471)">
-          <path
-             d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z"
-             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path274"
-             inkscape:connector-curvature="0" />
-        </g>
+         style="fill:#53ae52;fill-opacity:1"
+         transform="matrix(1.25,0,0,-1.25,980.02019,325.7501)"
+         id="g268">
+        <path
+           inkscape:connector-curvature="0"
+           id="path270"
+           style="fill:#53ae52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 l 0,0 c 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 l 0,0 C 16.961,7.633 9.329,0 0,0" />
+      </g>
+      <g
+         transform="matrix(1.25,0,0,-1.25,708.84882,331.76022)"
+         id="g272">
+        <path
+           inkscape:connector-curvature="0"
+           id="path274"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z" />
       </g>
       <text
          id="text276"
          style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="169.30098"
-         y="475.16504">
+         x="714.71375"
+         y="313.36731">
         <tspan
            id="tspan278"
-           y="475.16504"
-           x="169.30098">3</tspan>
+           y="313.36731"
+           x="714.71375">3</tspan>
       </text>
       <text
          id="text284"
          style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="245.62788"
-         y="473.59219">
+         x="791.04065"
+         y="311.79446">
         <tspan
-           y="473.59219"
-           x="245.62788"
+           y="311.79446"
+           x="791.04065"
            id="tspan286"
            sodipodi:role="line">MatcherBolt</tspan>
       </text>
     </g>
     <g
-       id="g5506"
-       transform="translate(1102.0069,-234.52872)">
+       id="g4727">
       <g
-         transform="matrix(1.25,0,0,-1.25,88.185814,1232.6168)"
-         id="g294"
-         clip-path="url(#clipPath296)">
-        <g
-           id="g300"
-           transform="translate(277.1373,535.6735)">
-          <path
-             d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 C 16.961,7.633 9.329,0 0,0"
-             style="fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path302"
-             inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="g304"
-           transform="translate(60.2002,530.8654)">
-          <path
-             d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z"
-             style="fill:#69d1c6;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path306"
-             inkscape:connector-curvature="0" />
-        </g>
+         style="fill:#53ae52;fill-opacity:1"
+         transform="matrix(1.25,0,0,-1.25,1536.6143,328.49621)"
+         id="g300">
+        <path
+           inkscape:connector-curvature="0"
+           id="path302"
+           style="fill:#53ae52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 C 16.961,7.633 9.329,0 0,0" />
+      </g>
+      <g
+         transform="matrix(1.25,0,0,-1.25,1265.443,334.50633)"
+         id="g304">
+        <path
+           inkscape:connector-curvature="0"
+           id="path306"
+           style="fill:#69d1c6;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z" />
       </g>
       <text
          id="text308"
          style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="169.30098"
-         y="550.64227">
+         x="1271.3079"
+         y="316.11356">
         <tspan
            id="tspan310"
-           y="550.64227"
-           x="169.30098">4</tspan>
+           y="316.11356"
+           x="1271.3079">4</tspan>
       </text>
       <text
          id="text316"
          style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="232.4959"
-         y="547.04913">
+         x="1334.5028"
+         y="312.52042">
         <tspan
-           y="547.04913"
-           x="232.4959"
+           y="312.52042"
+           x="1334.5028"
            id="tspan318"
            sodipodi:role="line">GoogleSemBolt</tspan>
       </text>
     </g>
     <g
-       id="g5535"
-       transform="translate(1280.8038,-11.284992)">
+       id="g4835">
       <g
-         transform="matrix(1.25,0,0,-1.25,792.71287,337.00806)"
+         style="fill:#53ae52;fill-opacity:1"
+         transform="matrix(1.25,0,0,-1.25,2073.5167,325.72307)"
          id="g204-9">
         <path
            inkscape:connector-curvature="0"
            id="path206-5"
-           style="fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="fill:#53ae52;fill-opacity:1;fill-rule:nonzero;stroke:none"
            d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 C 16.961,7.633 9.329,0 0,0" />
       </g>
       <path
-         d="m 520.53134,343.01818 -15.71125,-27.21125 15.71125,-27.2125 31.42125,0 15.71125,27.2125 -15.71125,27.21125 -31.42125,0 z"
+         d="m 1801.3351,331.73319 -15.7112,-27.21125 15.7112,-27.2125 31.4213,0 15.7112,27.2125 -15.7112,27.21125 -31.4213,0 z"
          style="fill:#9cfd26;fill-opacity:1;fill-rule:nonzero;stroke:none"
          id="path210-4"
          inkscape:connector-curvature="0" />
       <text
          id="text212-5"
          style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="527.40643"
-         y="324.6257">
+         x="1808.2102"
+         y="313.3407">
         <tspan
            id="tspan214-2"
-           y="324.6257"
-           x="527.40643">5</tspan>
+           y="313.3407"
+           x="1808.2102">5</tspan>
       </text>
       <text
          id="text220-9"
          style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="568.37799"
-         y="321.03192">
+         x="1849.1818"
+         y="309.74692">
         <tspan
-           y="321.03192"
-           x="568.37799"
+           y="309.74692"
+           x="1849.1818"
            id="tspan222-5"
            sodipodi:role="line">SegmentSavingBolt</tspan>
       </text>
     </g>
     <g
-       id="g8375"
-       transform="translate(-604.07122,236.3757)">
+       id="g4940">
       <g
-         transform="matrix(1.25,0,0,-1.25,1237.171,919.20693)"
-         id="g262-47"
-         clip-path="url(#clipPath264-0)">
-        <g
-           id="g268-97"
-           transform="translate(277.1373,596.0552)">
-          <path
-             d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 l 0,0 c 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 l 0,0 C 16.961,7.633 9.329,0 0,0"
-             style="fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path270-3"
-             inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="g272-1"
-           transform="translate(60.2002,591.2471)">
-          <path
-             d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z"
-             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path274-8"
-             inkscape:connector-curvature="0" />
-        </g>
-      </g>
-      <text
-         id="text276-23"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="1318.2861"
-         y="161.75517">
-        <tspan
-           id="tspan278-2"
-           y="161.75517"
-           x="1318.2861">3</tspan>
-      </text>
-      <text
-         id="text284-6"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="1394.613"
-         y="160.18233">
-        <tspan
-           y="160.18233"
-           x="1394.613"
-           id="tspan286-8"
-           sodipodi:role="line">MatcherBolt</tspan>
-      </text>
-    </g>
-    <g
-       id="g8386"
-       transform="translate(30.304577,179.80715)">
-      <g
+         style="fill:#3ec2a6;fill-opacity:1"
          id="g444-7"
-         transform="matrix(1.2500001,0,0,-1.2500001,411.97862,189.38685)">
+         transform="matrix(1.2500001,0,0,-1.2500001,446.32381,358.08232)">
         <path
            d="m 0,0 -177.137,0 23.985,35.516 129.464,0 L 0,0 Z"
-           style="fill:#ff4d56;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="fill:#3ec2a6;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="path446-7"
            inkscape:connector-curvature="0" />
       </g>
       <text
          id="text284-6-6-4"
          style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="216.23425"
-         y="175.76651">
+         x="250.57944"
+         y="344.46198">
         <tspan
-           y="175.76651"
-           x="216.23425"
+           y="344.46198"
+           x="250.57944"
            id="tspan286-8-6-8"
            sodipodi:role="line">Field Grouping</tspan>
       </text>
     </g>
     <g
-       id="g5495-4"
-       transform="translate(542.8937,14.889709)">
-      <g
-         transform="matrix(1.25,0,0,-1.25,88.185814,1232.6168)"
-         id="g262-49"
-         clip-path="url(#clipPath264-1)">
-        <g
-           id="g268-7"
-           transform="translate(277.1373,596.0552)">
-          <path
-             d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 l 0,0 c 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 l 0,0 C 16.961,7.633 9.329,0 0,0"
-             style="fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path270-8"
-             inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="g272-8"
-           transform="translate(60.2002,591.2471)">
-          <path
-             d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z"
-             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path274-4"
-             inkscape:connector-curvature="0" />
-        </g>
-      </g>
-      <text
-         id="text276-22"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="169.30098"
-         y="475.16504">
-        <tspan
-           id="tspan278-9"
-           y="475.16504"
-           x="169.30098">3</tspan>
-      </text>
-      <text
-         id="text284-5"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="245.62788"
-         y="473.59219">
-        <tspan
-           y="473.59219"
-           x="245.62788"
-           id="tspan286-0"
-           sodipodi:role="line">MatcherBolt</tspan>
-      </text>
-    </g>
-    <g
-       id="g5495-46"
-       transform="translate(537.84294,100.75268)">
-      <g
-         transform="matrix(1.25,0,0,-1.25,88.185814,1232.6168)"
-         id="g262-9"
-         clip-path="url(#clipPath264-6)">
-        <g
-           id="g268-1"
-           transform="translate(277.1373,596.0552)">
-          <path
-             d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 l 0,0 c 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 l 0,0 C 16.961,7.633 9.329,0 0,0"
-             style="fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path270-60"
-             inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="g272-89"
-           transform="translate(60.2002,591.2471)">
-          <path
-             d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z"
-             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path274-9"
-             inkscape:connector-curvature="0" />
-        </g>
-      </g>
-      <text
-         id="text276-8"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="169.30098"
-         y="475.16504">
-        <tspan
-           id="tspan278-6"
-           y="475.16504"
-           x="169.30098">3</tspan>
-      </text>
-      <text
-         id="text284-52"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="245.62788"
-         y="473.59219">
-        <tspan
-           y="473.59219"
-           x="245.62788"
-           id="tspan286-87"
-           sodipodi:role="line">MatcherBolt</tspan>
-      </text>
-    </g>
-    <g
-       id="g5506-0"
-       transform="translate(1101.5081,-150.491)">
-      <g
-         transform="matrix(1.25,0,0,-1.25,88.185814,1232.6168)"
-         id="g294-9"
-         clip-path="url(#clipPath296-9)">
-        <g
-           id="g300-1"
-           transform="translate(277.1373,535.6735)">
-          <path
-             d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 C 16.961,7.633 9.329,0 0,0"
-             style="fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path302-5"
-             inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="g304-1"
-           transform="translate(60.2002,530.8654)">
-          <path
-             d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z"
-             style="fill:#69d1c6;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path306-35"
-             inkscape:connector-curvature="0" />
-        </g>
-      </g>
-      <text
-         id="text308-69"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="169.30098"
-         y="550.64227">
-        <tspan
-           id="tspan310-14"
-           y="550.64227"
-           x="169.30098">4</tspan>
-      </text>
-      <text
-         id="text316-4"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="232.4959"
-         y="547.04913">
-        <tspan
-           y="547.04913"
-           x="232.4959"
-           id="tspan318-7"
-           sodipodi:role="line">GoogleSemBolt</tspan>
-      </text>
-    </g>
-    <g
-       id="g5506-2"
-       transform="translate(1101.5081,-56.546808)">
-      <g
-         transform="matrix(1.25,0,0,-1.25,88.185814,1232.6168)"
-         id="g294-8"
-         clip-path="url(#clipPath296-82)">
-        <g
-           id="g300-2"
-           transform="translate(277.1373,535.6735)">
-          <path
-             d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 C 16.961,7.633 9.329,0 0,0"
-             style="fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path302-7"
-             inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="g304-7"
-           transform="translate(60.2002,530.8654)">
-          <path
-             d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z"
-             style="fill:#69d1c6;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path306-38"
-             inkscape:connector-curvature="0" />
-        </g>
-      </g>
-      <text
-         id="text308-5"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="169.30098"
-         y="550.64227">
-        <tspan
-           id="tspan310-4"
-           y="550.64227"
-           x="169.30098">4</tspan>
-      </text>
-      <text
-         id="text316-3"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="232.4959"
-         y="547.04913">
-        <tspan
-           y="547.04913"
-           x="232.4959"
-           id="tspan318-77"
-           sodipodi:role="line">GoogleSemBolt</tspan>
-      </text>
-    </g>
-    <g
-       id="g5506-8"
-       transform="translate(1100.498,27.295861)">
-      <g
-         transform="matrix(1.25,0,0,-1.25,88.185814,1232.6168)"
-         id="g294-1"
-         clip-path="url(#clipPath296-5)">
-        <g
-           id="g300-9"
-           transform="translate(277.1373,535.6735)">
-          <path
-             d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 C 16.961,7.633 9.329,0 0,0"
-             style="fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path302-51"
-             inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="g304-3"
-           transform="translate(60.2002,530.8654)">
-          <path
-             d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z"
-             style="fill:#69d1c6;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path306-2"
-             inkscape:connector-curvature="0" />
-        </g>
-      </g>
-      <text
-         id="text308-7"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="169.30098"
-         y="550.64227">
-        <tspan
-           id="tspan310-7"
-           y="550.64227"
-           x="169.30098">4</tspan>
-      </text>
-      <text
-         id="text316-2"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="232.4959"
-         y="547.04913">
-        <tspan
-           y="547.04913"
-           x="232.4959"
-           id="tspan318-0"
-           sodipodi:role="line">GoogleSemBolt</tspan>
-      </text>
-    </g>
-    <g
-       id="g5535-8"
-       transform="translate(1282.3191,68.4548)">
-      <g
-         transform="matrix(1.25,0,0,-1.25,792.71287,337.00806)"
-         id="g204-9-3">
-        <path
-           inkscape:connector-curvature="0"
-           id="path206-5-2"
-           style="fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 C 16.961,7.633 9.329,0 0,0" />
-      </g>
-      <path
-         d="m 520.53134,343.01818 -15.71125,-27.21125 15.71125,-27.2125 31.42125,0 15.71125,27.2125 -15.71125,27.21125 -31.42125,0 z"
-         style="fill:#9cfd26;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="path210-4-5"
-         inkscape:connector-curvature="0" />
-      <text
-         id="text212-5-2"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="527.40643"
-         y="324.6257">
-        <tspan
-           id="tspan214-2-2"
-           y="324.6257"
-           x="527.40643">5</tspan>
-      </text>
-      <text
-         id="text220-9-8"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="568.37799"
-         y="321.03192">
-        <tspan
-           y="321.03192"
-           x="568.37799"
-           id="tspan222-5-7"
-           sodipodi:role="line">SegmentSavingBolt</tspan>
-      </text>
-    </g>
-    <g
-       id="g5535-81"
-       transform="translate(1282.3191,159.36853)">
-      <g
-         transform="matrix(1.25,0,0,-1.25,792.71287,337.00806)"
-         id="g204-9-5">
-        <path
-           inkscape:connector-curvature="0"
-           id="path206-5-1"
-           style="fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 C 16.961,7.633 9.329,0 0,0" />
-      </g>
-      <path
-         d="m 520.53134,343.01818 -15.71125,-27.21125 15.71125,-27.2125 31.42125,0 15.71125,27.2125 -15.71125,27.21125 -31.42125,0 z"
-         style="fill:#9cfd26;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="path210-4-0"
-         inkscape:connector-curvature="0" />
-      <text
-         id="text212-5-6"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="527.40643"
-         y="324.6257">
-        <tspan
-           id="tspan214-2-25"
-           y="324.6257"
-           x="527.40643">5</tspan>
-      </text>
-      <text
-         id="text220-9-7"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="568.37799"
-         y="321.03192">
-        <tspan
-           y="321.03192"
-           x="568.37799"
-           id="tspan222-5-4"
-           sodipodi:role="line">SegmentSavingBolt</tspan>
-      </text>
-    </g>
-    <g
-       id="g5535-5"
-       transform="translate(1280.2988,248.26196)">
-      <g
-         transform="matrix(1.25,0,0,-1.25,792.71287,337.00806)"
-         id="g204-9-4">
-        <path
-           inkscape:connector-curvature="0"
-           id="path206-5-0"
-           style="fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 C 16.961,7.633 9.329,0 0,0" />
-      </g>
-      <path
-         d="m 520.53134,343.01818 -15.71125,-27.21125 15.71125,-27.2125 31.42125,0 15.71125,27.2125 -15.71125,27.21125 -31.42125,0 z"
-         style="fill:#9cfd26;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="path210-4-9"
-         inkscape:connector-curvature="0" />
-      <text
-         id="text212-5-61"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="527.40643"
-         y="324.6257">
-        <tspan
-           id="tspan214-2-3"
-           y="324.6257"
-           x="527.40643">5</tspan>
-      </text>
-      <text
-         id="text220-9-9"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="568.37799"
-         y="321.03192">
-        <tspan
-           y="321.03192"
-           x="568.37799"
-           id="tspan222-5-2"
-           sodipodi:role="line">SegmentSavingBolt</tspan>
-      </text>
-    </g>
-    <g
        id="g6609"
-       transform="matrix(0.08715574,0.99619476,-0.99619464,0.08715574,315.63115,-21.470046)"
+       transform="matrix(0.15643446,0.9876884,-0.98768828,0.15643446,283.98715,-34.192949)"
        style="fill:#fdc226;fill-opacity:1">
       <g
          transform="matrix(1.2500001,0,0,-1.2500001,383.33592,271.02987)"
@@ -1430,25 +1002,25 @@
       </g>
     </g>
     <g
-       transform="matrix(1.5864571,0,0,-1.2500001,1562.5423,261.94455)"
-       id="g444-7-5">
+       id="g4953"
+       transform="translate(-10.714286,0)">
       <path
          inkscape:connector-curvature="0"
          id="path446-7-7"
-         style="fill:#ff4d56;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         d="m 0,0 -177.137,0 23.985,35.516 129.464,0 L 0,0 Z" />
-    </g>
-    <text
-       id="text284-6-6-4-3"
-       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       x="1327.4021"
-       y="244.2836">
-      <tspan
+         style="fill:#3ec2a6;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 1562.5423,261.94455 -281.0203,0 38.0512,-44.395 205.3891,0 37.58,44.395 z" />
+      <text
          y="244.2836"
          x="1327.4021"
-         id="tspan286-8-6-8-9"
-         sodipodi:role="line">ShuffleGrouping</tspan>
-    </text>
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text284-6-6-4-3">
+        <tspan
+           sodipodi:role="line"
+           id="tspan286-8-6-8-9"
+           x="1327.4021"
+           y="244.2836">ShuffleGrouping</tspan>
+      </text>
+    </g>
     <g
        id="g6659-0-8"
        transform="matrix(0.8660254,0.50000002,-0.49999998,0.86602541,884.59819,201.89805)">
@@ -2014,35 +1586,426 @@
       </g>
     </g>
     <g
-       transform="matrix(1.5864571,0,0,-1.2500001,2095.3979,261.94456)"
-       id="g444-7-5-1">
+       id="g4959">
       <path
          inkscape:connector-curvature="0"
          id="path446-7-7-7"
-         style="fill:#ff4d56;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         d="m 0,0 -177.137,0 23.985,35.516 129.464,0 L 0,0 Z" />
-    </g>
-    <text
-       id="text284-6-6-4-3-5"
-       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       x="1860.2577"
-       y="244.28362">
-      <tspan
+         style="fill:#3ec2a6;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 2095.3979,261.94456 -281.0203,0 38.0512,-44.395 205.3891,0 37.58,44.395 z" />
+      <text
          y="244.28362"
          x="1860.2577"
-         id="tspan286-8-6-8-9-0"
-         sodipodi:role="line">ShuffleGrouping</tspan>
-    </text>
-    <text
-       id="text284-6-6-4-3-8"
-       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       x="794.08563"
-       y="244.45689">
-      <tspan
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text284-6-6-4-3-5">
+        <tspan
+           sodipodi:role="line"
+           id="tspan286-8-6-8-9-0"
+           x="1860.2577"
+           y="244.28362">ShuffleGrouping</tspan>
+      </text>
+    </g>
+    <g
+       id="g4947">
+      <path
+         inkscape:connector-curvature="0"
+         id="path446"
+         style="fill:#3ec2a6;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 973.62343,262.11784 -221.42127,0 29.98125,-44.395 161.83002,0 29.61,44.395 z" />
+      <text
          y="244.45689"
          x="794.08563"
-         id="tspan286-8-6-8-9-04"
-         sodipodi:role="line">AllGrouping</tspan>
-    </text>
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text284-6-6-4-3-8">
+        <tspan
+           sodipodi:role="line"
+           id="tspan286-8-6-8-9-04"
+           x="794.08563"
+           y="244.45689">AllGrouping</tspan>
+      </text>
+    </g>
+    <g
+       transform="translate(-0.42912563,84.701287)"
+       id="g4621-0">
+      <g
+         style="fill:#53ae52;fill-opacity:1"
+         transform="matrix(1.25,0,0,-1.25,980.02019,325.7501)"
+         id="g268-5">
+        <path
+           inkscape:connector-curvature="0"
+           id="path270-2"
+           style="fill:#53ae52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 l 0,0 c 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 l 0,0 C 16.961,7.633 9.329,0 0,0" />
+      </g>
+      <g
+         transform="matrix(1.25,0,0,-1.25,708.84882,331.76022)"
+         id="g272-8">
+        <path
+           inkscape:connector-curvature="0"
+           id="path274-6"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z" />
+      </g>
+      <text
+         id="text276-4"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="714.71375"
+         y="313.36731">
+        <tspan
+           id="tspan278-5"
+           y="313.36731"
+           x="714.71375">3</tspan>
+      </text>
+      <text
+         id="text284-8"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="791.04065"
+         y="311.79446">
+        <tspan
+           y="311.79446"
+           x="791.04065"
+           id="tspan286-5"
+           sodipodi:role="line">MatcherBolt</tspan>
+      </text>
+    </g>
+    <g
+       transform="translate(1.591183,165.51349)"
+       id="g4621-6">
+      <g
+         style="fill:#53ae52;fill-opacity:1"
+         transform="matrix(1.25,0,0,-1.25,980.02019,325.7501)"
+         id="g268-0">
+        <path
+           inkscape:connector-curvature="0"
+           id="path270-8"
+           style="fill:#53ae52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 l 0,0 c 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 l 0,0 C 16.961,7.633 9.329,0 0,0" />
+      </g>
+      <g
+         transform="matrix(1.25,0,0,-1.25,708.84882,331.76022)"
+         id="g272-9">
+        <path
+           inkscape:connector-curvature="0"
+           id="path274-8"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z" />
+      </g>
+      <text
+         id="text276-2"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="714.71375"
+         y="313.36731">
+        <tspan
+           id="tspan278-8"
+           y="313.36731"
+           x="714.71375">3</tspan>
+      </text>
+      <text
+         id="text284-0"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="791.04065"
+         y="311.79446">
+        <tspan
+           y="311.79446"
+           x="791.04065"
+           id="tspan286-2"
+           sodipodi:role="line">MatcherBolt</tspan>
+      </text>
+    </g>
+    <g
+       transform="translate(0.58102342,243.29523)"
+       id="g4621-5">
+      <g
+         style="fill:#53ae52;fill-opacity:1"
+         transform="matrix(1.25,0,0,-1.25,980.02019,325.7501)"
+         id="g268-4">
+        <path
+           inkscape:connector-curvature="0"
+           id="path270-6"
+           style="fill:#53ae52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 l 0,0 c 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 l 0,0 C 16.961,7.633 9.329,0 0,0" />
+      </g>
+      <g
+         transform="matrix(1.25,0,0,-1.25,708.84882,331.76022)"
+         id="g272-80">
+        <path
+           inkscape:connector-curvature="0"
+           id="path274-9"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z" />
+      </g>
+      <text
+         id="text276-3"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#464390;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="714.71375"
+         y="313.36731">
+        <tspan
+           id="tspan278-7"
+           y="313.36731"
+           x="714.71375">3</tspan>
+      </text>
+      <text
+         id="text284-5"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="791.04065"
+         y="311.79446">
+        <tspan
+           y="311.79446"
+           x="791.04065"
+           id="tspan286-1"
+           sodipodi:role="line">MatcherBolt</tspan>
+      </text>
+    </g>
+    <g
+       transform="translate(-1.4393718,87.00594)"
+       id="g4727-3">
+      <g
+         style="fill:#53ae52;fill-opacity:1"
+         transform="matrix(1.25,0,0,-1.25,1536.6143,328.49621)"
+         id="g300-5">
+        <path
+           inkscape:connector-curvature="0"
+           id="path302-3"
+           style="fill:#53ae52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 C 16.961,7.633 9.329,0 0,0" />
+      </g>
+      <g
+         transform="matrix(1.25,0,0,-1.25,1265.443,334.50633)"
+         id="g304-3">
+        <path
+           inkscape:connector-curvature="0"
+           id="path306-5"
+           style="fill:#69d1c6;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z" />
+      </g>
+      <text
+         id="text308-2"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="1271.3079"
+         y="316.11356">
+        <tspan
+           id="tspan310-0"
+           y="316.11356"
+           x="1271.3079">4</tspan>
+      </text>
+      <text
+         id="text316-5"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="1334.5028"
+         y="312.52042">
+        <tspan
+           y="312.52042"
+           x="1334.5028"
+           id="tspan318-1"
+           sodipodi:role="line">GoogleSemBolt</tspan>
+      </text>
+    </g>
+    <g
+       transform="translate(-2.4495266,167.81814)"
+       id="g4727-6">
+      <g
+         style="fill:#53ae52;fill-opacity:1"
+         transform="matrix(1.25,0,0,-1.25,1536.6143,328.49621)"
+         id="g300-4">
+        <path
+           inkscape:connector-curvature="0"
+           id="path302-9"
+           style="fill:#53ae52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 C 16.961,7.633 9.329,0 0,0" />
+      </g>
+      <g
+         transform="matrix(1.25,0,0,-1.25,1265.443,334.50633)"
+         id="g304-9">
+        <path
+           inkscape:connector-curvature="0"
+           id="path306-8"
+           style="fill:#69d1c6;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z" />
+      </g>
+      <text
+         id="text308-6"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="1271.3079"
+         y="316.11356">
+        <tspan
+           id="tspan310-2"
+           y="316.11356"
+           x="1271.3079">4</tspan>
+      </text>
+      <text
+         id="text316-8"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="1334.5028"
+         y="312.52042">
+        <tspan
+           y="312.52042"
+           x="1334.5028"
+           id="tspan318-5"
+           sodipodi:role="line">GoogleSemBolt</tspan>
+      </text>
+    </g>
+    <g
+       transform="translate(-2.4495266,248.63035)"
+       id="g4727-34">
+      <g
+         style="fill:#53ae52;fill-opacity:1"
+         transform="matrix(1.25,0,0,-1.25,1536.6143,328.49621)"
+         id="g300-46">
+        <path
+           inkscape:connector-curvature="0"
+           id="path302-6"
+           style="fill:#53ae52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 C 16.961,7.633 9.329,0 0,0" />
+      </g>
+      <g
+         transform="matrix(1.25,0,0,-1.25,1265.443,334.50633)"
+         id="g304-30">
+        <path
+           inkscape:connector-curvature="0"
+           id="path306-3"
+           style="fill:#69d1c6;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 -12.569,21.769 0,43.539 l 25.137,0 L 37.706,21.769 25.137,0 0,0 Z" />
+      </g>
+      <text
+         id="text308-3"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="1271.3079"
+         y="316.11356">
+        <tspan
+           id="tspan310-9"
+           y="316.11356"
+           x="1271.3079">4</tspan>
+      </text>
+      <text
+         id="text316-9"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="1334.5028"
+         y="312.52042">
+        <tspan
+           y="312.52042"
+           x="1334.5028"
+           id="tspan318-4"
+           sodipodi:role="line">GoogleSemBolt</tspan>
+      </text>
+    </g>
+    <g
+       transform="translate(1.5848106,88.768928)"
+       id="g4835-3">
+      <g
+         style="fill:#53ae52;fill-opacity:1"
+         transform="matrix(1.25,0,0,-1.25,2073.5167,325.72307)"
+         id="g204-9-7">
+        <path
+           inkscape:connector-curvature="0"
+           id="path206-5-5"
+           style="fill:#53ae52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 C 16.961,7.633 9.329,0 0,0" />
+      </g>
+      <path
+         d="m 1801.3351,331.73319 -15.7112,-27.21125 15.7112,-27.2125 31.4213,0 15.7112,27.2125 -15.7112,27.21125 -31.4213,0 z"
+         style="fill:#9cfd26;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path210-4-3"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text212-5-6"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="1808.2102"
+         y="313.3407">
+        <tspan
+           id="tspan214-2-7"
+           y="313.3407"
+           x="1808.2102">5</tspan>
+      </text>
+      <text
+         id="text220-9-2"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="1849.1818"
+         y="309.74692">
+        <tspan
+           y="309.74692"
+           x="1849.1818"
+           id="tspan222-5-0"
+           sodipodi:role="line">SegmentSavingBolt</tspan>
+      </text>
+    </g>
+    <g
+       transform="translate(0.57465422,174.6319)"
+       id="g4835-3-7">
+      <g
+         style="fill:#53ae52;fill-opacity:1"
+         transform="matrix(1.25,0,0,-1.25,2073.5167,325.72307)"
+         id="g204-9-7-8">
+        <path
+           inkscape:connector-curvature="0"
+           id="path206-5-5-5"
+           style="fill:#53ae52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 C 16.961,7.633 9.329,0 0,0" />
+      </g>
+      <path
+         d="m 1801.3351,331.73319 -15.7112,-27.21125 15.7112,-27.2125 31.4213,0 15.7112,27.2125 -15.7112,27.21125 -31.4213,0 z"
+         style="fill:#9cfd26;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path210-4-3-1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text212-5-6-5"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="1808.2102"
+         y="313.3407">
+        <tspan
+           id="tspan214-2-7-1"
+           y="313.3407"
+           x="1808.2102">5</tspan>
+      </text>
+      <text
+         id="text220-9-2-8"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="1849.1818"
+         y="309.74692">
+        <tspan
+           y="309.74692"
+           x="1849.1818"
+           id="tspan222-5-0-3"
+           sodipodi:role="line">SegmentSavingBolt</tspan>
+      </text>
+    </g>
+    <g
+       transform="translate(0.57465583,253.42379)"
+       id="g4835-3-0">
+      <g
+         style="fill:#53ae52;fill-opacity:1"
+         transform="matrix(1.25,0,0,-1.25,2073.5167,325.72307)"
+         id="g204-9-7-3">
+        <path
+           inkscape:connector-curvature="0"
+           id="path206-5-5-9"
+           style="fill:#53ae52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 -203.369,0 c -9.329,0 -16.961,7.633 -16.961,16.961 0,9.329 7.632,16.962 16.961,16.962 L 0,33.923 c 9.329,0 16.961,-7.633 16.961,-16.962 C 16.961,7.633 9.329,0 0,0" />
+      </g>
+      <path
+         d="m 1801.3351,331.73319 -15.7112,-27.21125 15.7112,-27.2125 31.4213,0 15.7112,27.2125 -15.7112,27.21125 -31.4213,0 z"
+         style="fill:#9cfd26;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path210-4-3-2"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text212-5-6-7"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.7438736px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="1808.2102"
+         y="313.3407">
+        <tspan
+           id="tspan214-2-7-2"
+           y="313.3407"
+           x="1808.2102">5</tspan>
+      </text>
+      <text
+         id="text220-9-2-2"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.03149796px;font-family:Chivo;-inkscape-font-specification:Chivo-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="1849.1818"
+         y="309.74692">
+        <tspan
+           y="309.74692"
+           x="1849.1818"
+           id="tspan222-5-0-7"
+           sodipodi:role="line">SegmentSavingBolt</tspan>
+      </text>
+    </g>
   </g>
 </svg>
