@@ -75,6 +75,11 @@ module.exports = function (listener) {
       console.log('Consumer error: '+err);
     });
 
+    consumer.on('offsetOutOfRange', function (err) {
+      console.log('Offset out of range');
+      consumer.setOffset(config.kafka.responsetopic, 0, 0);
+    });
+
     socket.on('url', function(data) {
       if (requestcount >= 10) {
         socket.emit('finished', {'value': 'DONE'});
